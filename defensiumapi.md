@@ -35,6 +35,7 @@ export DEFENSIUM_DESENVOLVIMENTO_DATABASE_PASSWORD=ZGVmZW5zaXVtc2VydmljZQ==
 drop table if exists databasechangelog cascade;
 drop table if exists databasechangeloglock cascade;
 drop table if exists tb_perfil cascade;
+select * from databasechangelog order by dateexecuted desc;
 ```
 
 </details>
